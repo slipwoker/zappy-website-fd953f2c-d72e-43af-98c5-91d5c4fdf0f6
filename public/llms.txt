@@ -1,0 +1,103 @@
+# האתר של אוריין ויהלי — Generative Engine Optimization Map
+
+> A personalized bookmark design business focused on creating custom, individually crafted bookmarks. The brand centers around personal expression, creativity, and unique handcrafted or designed products tailored to individual customers.
+
+---
+
+## Pages
+
+### בית
+https://-fd953f2c.zappy5.app
+גלו עולם של סימניות מעוצבות בעבודת יד וניירת מותאמת אישית שמבטאות את היצירתיות שלכם. הפכו כל רגע קריאה לחוויה ייחודית עם עיצובים שאין לאף אחד אחר. התחילו לעצב עכשיו!
+
+### עיצוב מותאם
+https://-fd953f2c.zappy5.app/custom-design
+הפכו כל רעיון לסימניה מושלמת בעיצוב מותאם אישית. בין אם זו מתנה מקורית או פינוק עצמי, נעצב יחד פריט ניירת ייחודי שמספר את הסיפור שלכם. צרו קשר והתחילו בתהליך העיצוב!
+
+### אודות
+https://-fd953f2c.zappy5.app/about
+מאחורי כל סימניה עומדת אהבה גדולה ליצירה, דיוק וסיפור אישי. היכנסו להכיר את התשוקה שמניעה את הסטודיו שלנו לעיצוב ניירת מותאמת, ולמה כל לקוח מקבל חוויה שאין שנייה לה.
+
+### צור קשר
+https://-fd953f2c.zappy5.app/contact
+יש לכם רעיון לסימניה או ניירת מותאמת? אנחנו כאן להקשיב, לייעץ ולהפוך אותו למציאות. השאירו פרטים ונתחיל ליצור יחד את הפריט המושלם שילווה אתכם בכל ספר. בואו נדבר!
+
+### Products
+https://-fd953f2c.zappy5.app/products
+המוצרים שלנו - האתר של אוריין ויהלי
+
+### Cart
+https://-fd953f2c.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://-fd953f2c.zappy5.app/checkout
+תשלום
+
+### Login
+https://-fd953f2c.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://-fd953f2c.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://-fd953f2c.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://-fd953f2c.zappy5.app/product/:slug
+פרטי המוצר - האתר של אוריין ויהלי
+
+### Category
+https://-fd953f2c.zappy5.app/category/:slug
+מוצרים - האתר של אוריין ויהלי
+
+## Legal & Policy
+
+### Privacy Policy
+https://-fd953f2c.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-fd953f2c.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-fd953f2c.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About האתר של אוריין ויהלי
+A personalized bookmark design business focused on creating custom, individually crafted bookmarks. The brand centers around personal expression, creativity, and unique handcrafted or designed products tailored to individual customers.
+
+## Services/Products
+- סימניות עיצוב אישי
+
+## Target Audience
+- סטודנטים אומנותיים
+- חברי מועדוני קריאה
+- אנשי מקצוע בתחום המתנות
+
+## Industry
+Personalized Stationery & Design
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-fd953f2c.zappy5.app/sitemap.xml
+- Robots: https://-fd953f2c.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-fd953f2c.zappy5.app/llms-full.txt
+- Products (JSON): https://-fd953f2c.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-fd953f2c.zappy5.app/product-feed.xml
