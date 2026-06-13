@@ -7,65 +7,65 @@
 ## Pages
 
 ### בית
-https://-fd953f2c.zappy5.app
+https://example.com
 גלו עולם של סימניות מעוצבות בעבודת יד וניירת מותאמת אישית שמבטאות את היצירתיות שלכם. הפכו כל רגע קריאה לחוויה ייחודית עם עיצובים שאין לאף אחד אחר. התחילו לעצב עכשיו!
 
 ### עיצוב מותאם
-https://-fd953f2c.zappy5.app/custom-design
+https://example.com/custom-design
 הפכו כל רעיון לסימניה מושלמת בעיצוב מותאם אישית. בין אם זו מתנה מקורית או פינוק עצמי, נעצב יחד פריט ניירת ייחודי שמספר את הסיפור שלכם. צרו קשר והתחילו בתהליך העיצוב!
 
 ### אודות
-https://-fd953f2c.zappy5.app/about
+https://example.com/about
 מאחורי כל סימניה עומדת אהבה גדולה ליצירה, דיוק וסיפור אישי. היכנסו להכיר את התשוקה שמניעה את הסטודיו שלנו לעיצוב ניירת מותאמת, ולמה כל לקוח מקבל חוויה שאין שנייה לה.
 
 ### צור קשר
-https://-fd953f2c.zappy5.app/contact
+https://example.com/contact
 יש לכם רעיון לסימניה או ניירת מותאמת? אנחנו כאן להקשיב, לייעץ ולהפוך אותו למציאות. השאירו פרטים ונתחיל ליצור יחד את הפריט המושלם שילווה אתכם בכל ספר. בואו נדבר!
 
 ### Products
-https://-fd953f2c.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - האתר של אוריין ויהלי
 
 ### Cart
-https://-fd953f2c.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://-fd953f2c.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://-fd953f2c.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://-fd953f2c.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://-fd953f2c.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://-fd953f2c.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - האתר של אוריין ויהלי
 
 ### Category
-https://-fd953f2c.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - האתר של אוריין ויהלי
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-fd953f2c.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-fd953f2c.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-fd953f2c.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -96,8 +96,8 @@ Personalized Stationery & Design
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-fd953f2c.zappy5.app/sitemap.xml
-- Robots: https://-fd953f2c.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-fd953f2c.zappy5.app/llms-full.txt
-- Products (JSON): https://-fd953f2c.zappy5.app/products.json
-- Products (Google Merchant RSS): https://-fd953f2c.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
