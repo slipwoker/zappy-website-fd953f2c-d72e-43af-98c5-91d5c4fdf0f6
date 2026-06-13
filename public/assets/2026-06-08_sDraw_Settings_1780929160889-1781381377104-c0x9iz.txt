@@ -1,0 +1,232 @@
+[
+  {
+    "type": "integer",
+    "name": "Tutor_GESTURE",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "fill_threshold",
+    "value": 256
+  },
+  {
+    "type": "integer",
+    "name": "eraser_size",
+    "value": 253
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_FIGURE_CREATING",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_PIXELMODE",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "brush_size_for_pixel_mode",
+    "value": 2
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_exit",
+    "value": 5
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_AIRBRUSH",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "item_circleColor_PositionYc",
+    "value": 0.95633405
+  },
+  {
+    "type": "string",
+    "name": "shortcutsString",
+    "value": "[]"
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_ERASER",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "pressureMax2",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "item_layersbutton_PositionXc",
+    "value": 0.012711864
+  },
+  {
+    "type": "float",
+    "name": "pressureMax1",
+    "value": 1
+  },
+  {
+    "type": "boolean",
+    "name": "sPenOnlyUi",
+    "value": false
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_FILL",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_PIPETTE",
+    "value": 1
+  },
+  {
+    "type": "boolean",
+    "name": "sPenOnly",
+    "value": false
+  },
+  {
+    "type": "float",
+    "name": "sizeMax1",
+    "value": 0.12745099
+  },
+  {
+    "type": "float",
+    "name": "sizeMax2",
+    "value": 0.12745099
+  },
+  {
+    "type": "float",
+    "name": "item_menubutton_PositionXc",
+    "value": 0.20667031
+  },
+  {
+    "type": "string",
+    "name": "MenuStripList",
+    "value": "[\"menu\",\"save\",\"open\",\"export\",\"insert+\",\"undo+<\",\"redo+<\",\"settings\",\"clear\",\"brush+\",\"airbrush+\",\"eraser+\",\"fill+\",\"mosaic\",\"text+\",\"selection+\",\"figures+\",\"line+\",\"pipette\",\"accurate+\"]"
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_BRUSH",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "brush_opacity",
+    "value": 255
+  },
+  {
+    "type": "string",
+    "name": "paid_counter_tick_date",
+    "value": "2026-04-09"
+  },
+  {
+    "type": "integer",
+    "name": "AirbrushSize",
+    "value": 29
+  },
+  {
+    "type": "float",
+    "name": "pressureMin1",
+    "value": 2.4420026E-4
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_TEXT_MOVE",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "pressureMin2",
+    "value": 2.4420026E-4
+  },
+  {
+    "type": "integer",
+    "name": "brush_color",
+    "value": -34902
+  },
+  {
+    "type": "integer",
+    "name": "paid_counter",
+    "value": 5
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_TEXT_ADD",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_SELECTION_SELECTING",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_SELECTION_MOVING",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "item_circleColor_PositionXc",
+    "value": 0.99890643
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_FIGURE_MOVING",
+    "value": 1
+  },
+  {
+    "type": "float",
+    "name": "item_layersbutton_PositionYc",
+    "value": 0.038462117
+  },
+  {
+    "type": "integer",
+    "name": "brush_size",
+    "value": 11
+  },
+  {
+    "type": "float",
+    "name": "item_menubutton_PositionYc",
+    "value": 0.03095557
+  },
+  {
+    "type": "integer",
+    "name": "background_color",
+    "value": -8421505
+  },
+  {
+    "type": "float",
+    "name": "sizeMin1",
+    "value": 0
+  },
+  {
+    "type": "float",
+    "name": "sizeMin2",
+    "value": 0
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_createdNewProject",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_LINE_DRAWING",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_ACCURATE",
+    "value": 1
+  },
+  {
+    "type": "integer",
+    "name": "Tutor_INSERT",
+    "value": 1
+  }
+]
