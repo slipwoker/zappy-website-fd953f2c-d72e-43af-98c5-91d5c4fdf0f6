@@ -4,6 +4,81 @@
     <title>האתר של אוריין ויהלי</title>
     <link>https://example.com</link>
     <description>Product feed for האתר של אוריין ויהלי</description>
-    <lastBuildDate>Sat, 13 Jun 2026 19:38:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 07:25:38 GMT</lastBuildDate>
+    <item>
+      <g:id>3599bc59-7abb-4897-9c87-d1d1c5b4547c</g:id>
+      <g:title>סימניה </g:title>
+      <g:description>משמש לספר</g:description>
+      <g:link>https://example.com/product/symnyh-qz4uic</g:link>
+      <g:image_link>https://example.com/assets/product-1781382499233-wfmbpo.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>האתר של אוריין ויהלי</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>0e343ca5-b6ec-4bae-bed8-c5192228b7df</g:id>
+      <g:title>סימניה </g:title>
+      <g:description>משמש לספר</g:description>
+      <g:link>https://example.com/product/symnyh-k2g669</g:link>
+      <g:image_link>https://example.com/assets/product-1781382373724-ak2jgb.webp</g:image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781382399513-8t8x.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781382423446-ekwejd.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>5.00 ILS</g:price>
+      <g:sale_price>3.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>האתר של אוריין ויהלי</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>1fc75e29-685f-40a2-bc26-451f68a586cd</g:id>
+      <g:title>סימניה </g:title>
+      <g:description>משמש לספר</g:description>
+      <g:link>https://example.com/product/symnyh-lwqr5k</g:link>
+      <g:image_link>https://example.com/assets/product-1781382212761-bp8uod.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>5.00 ILS</g:price>
+      <g:sale_price>3.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>האתר של אוריין ויהלי</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>6186cd33-620d-4a7b-8753-40a780e0e459</g:id>
+      <g:title>סימניה</g:title>
+      <g:description>משמש לספר</g:description>
+      <g:link>https://example.com/product/symnyh-ueonrw</g:link>
+      <g:image_link>https://example.com/assets/product-1781382061156-rt2s1.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>5.00 ILS</g:price>
+      <g:sale_price>3.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>האתר של אוריין ויהלי</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>f2d0838b-1a2a-435e-bb15-79ba68fea7d1</g:id>
+      <g:title>סימניה </g:title>
+      <g:description>מיועדת לספר ולקריאה</g:description>
+      <g:link>https://example.com/product/symnyh-k2cy99</g:link>
+      <g:image_link>https://example.com/assets/product-1781379813685-hosi6.webp</g:image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781379892700-803kqe.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380038780-26d3j.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380066994-l9zze.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380089198-hz0g8j.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380139412-3tnmr.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380167429-wznwr.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380212943-uthutm.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380243483-hhc0s.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380269032-ssj9sv.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1781380291996-bvpdh.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>5.00 ILS</g:price>
+      <g:sale_price>3.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>סימניות</g:brand>
+    </item>
   </channel>
 </rss>

@@ -236,7 +236,7 @@
   </style>
     
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -331,509 +331,42 @@
 </head>
 <body>
 
-    <header class="index-features-section__intro">
-      <h2 class="index-features-section__heading" id="features-heading">הסימניה שלך, הסיפור שלך</h2>
-      <p class="index-features-section__subtitle">כל סימניה נוצרת בעבודת יד קפדנית, מתוך מחשבה על הרגעים השקטים שלך עם הספר. אנחנו משלבים חומרים איכותיים, עיצוב אישי ואהבה אמיתית למילה הכתובה.</p>
-    </header>
+
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
-<script>window.ZAPPY_WEBSITE_ID = "fd953f2c-d72e-43af-98c5-91d5c4fdf0f6";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
-<a class="skip-link" href="#main">דלג לתוכן הראשי</a>
-<nav class="navbar" dir="rtl">
-  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-    </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-    </svg>
-  </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-    </svg>
-  </button>
-
-  <div class="nav-container">
-    <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="האתר של אוריין ויהלי"></a>
-    </div><ul class="nav-menu" id="navMenu">
-
-    <li class="menu-item-has-children zappy-products-dropdown">
-      <a href="/products">
-        מוצרים
-        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M6 9l6 6 6-6"></path>
-        </svg>
-      </a>
-      <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
-        <!-- Categories will be loaded dynamically -->
-      </ul>
-    </li>
-  <li><a href="/">בית</a></li><li><a href="/custom-design">עיצוב מותאם</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+<script>window.ZAPPY_WEBSITE_ID = "fd953f2c-d72e-43af-98c5-91d5c4fdf0f6";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+    <header class="index-features-section__intro">
+      <h2 class="index-features-section__heading" id="features-heading">הסימניה שלך, הסיפור שלך</h2>
+      <p class="index-features-section__subtitle">כל סימניה נוצרת בעבודת יד קפדנית, מתוך מחשבה על הרגעים השקטים שלך עם הספר. אנחנו משלבים חומרים איכותיים, עיצוב אישי ואהבה אמיתית למילה הכתובה.</p>
+    <div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
-    
-    
-    
-    
-  </div>
-</nav>
-<script>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></header>
 
-// Navbar Mobile Menu Toggle and Contrast Fix
-(function() {
-  // Use 'load' event instead of 'DOMContentLoaded' to ensure we run AFTER all other scripts
-  window.addEventListener('load', function() {
-    
-    // FIX MOBILE BUTTON CONTRAST
-    // Detect navbar background color and apply contrasting color to mobile buttons
-    const navbar = document.querySelector('.navbar, nav, header');
-    if (!navbar) {
-      console.log('[Navbar] Navbar element not found');
-      return;
-    }
-    
-    // DECLARE VARIABLES EARLY to avoid Temporal Dead Zone errors
-    // These are used in multiple places below
-    let mobileToggle = document.getElementById('mobileToggle') ||
-                       document.querySelector('.mobile-toggle') ||
-                       document.querySelector('.hamburger') ||
-                       document.querySelector('.hamburger-menu') ||
-                       document.querySelector('.menu-toggle') ||
-                       document.querySelector('.burger-menu') ||
-                       document.querySelector('[aria-label="Menu"]') ||
-                       document.querySelector('[aria-label="תפריט"]');
-    
-    const phoneBtn = document.querySelector('.phone-header-btn');
-    
-    const computedStyle = window.getComputedStyle(navbar);
-    let bgColor = computedStyle.backgroundColor;
-    
-    console.log('[Navbar] Initial navbar background:', bgColor);
-    
-    // Check if background is transparent or rgba with 0 alpha
-    const isTransparent = bgColor === 'transparent' || 
-                         bgColor === 'rgba(0, 0, 0, 0)' ||
-                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
-    
-    if (isTransparent) {
-      // Check for background-image or gradient
-      const bgImage = computedStyle.backgroundImage;
-      if (bgImage && bgImage !== 'none') {
-        console.log('[Navbar] Navbar has background image/gradient, using dark text');
-        bgColor = 'rgb(240, 240, 240)'; // Assume light background
-      } else {
-        // Transparent navbar - check body background
-        const bodyBg = window.getComputedStyle(document.body).backgroundColor;
-        console.log('[Navbar] Navbar transparent, using body background:', bodyBg);
-        bgColor = bodyBg;
-      }
-    }
-    
-    // Calculate luminance to determine if background is light or dark
-    const rgb = bgColor.match(/\d+/g);
-    if (rgb && rgb.length >= 3) {
-      const r = parseInt(rgb[0]);
-      const g = parseInt(rgb[1]);
-      const b = parseInt(rgb[2]);
-      const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-      
-      // Mobile button colors are set by Claude's AI-generated CSS (same as .nav-menu a)
-      // No dynamic color overrides needed - colors come from the generated navbar CSS
-      console.log('[Navbar] Mobile button colors preserved from Claude CSS (luminance:', luminance.toFixed(2) + ')');
-      
-      // FIX ICON SIZES - Ensure SVGs are properly sized and visible
-      // INJECT CRITICAL CSS TO OVERRIDE ANY CONFLICTING RULES
-      const criticalCSS = document.createElement('style');
-      criticalCSS.id = 'zappy-mobile-nav-fix';
-      const htmlLang = document.documentElement.lang || 'en';
-      const htmlDir = document.documentElement.dir || 'ltr';
-      // Check both dir attribute AND lang for RTL detection
-      // dir="rtl" is the most reliable indicator
-      const isRTL = htmlDir === 'rtl' || htmlLang === 'he' || htmlLang === 'ar';
-      
-      criticalCSS.textContent = `
-        /* Hide mobile buttons on desktop, show only on mobile */
-        @media (min-width: 769px) {
-          .mobile-toggle,
-          .phone-header-btn {
-            display: none !important;
-          }
-        }
-        
-        /* Show and position mobile buttons correctly on mobile */
-        @media (max-width: 768px) {
-          .navbar,
-          nav.navbar {
-            min-height: 70px !important;
-          }
-
-          .mobile-toggle,
-          .phone-header-btn {
-            position: absolute !important;
-            top: 0 !important;
-            bottom: 0 !important;
-            margin-top: auto !important;
-            margin-bottom: auto !important;
-            transform: none !important;
-            z-index: 1001 !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            width: 36px !important;
-            height: 36px !important;
-            border-radius: 50% !important;
-            border: none !important;
-            cursor: pointer !important;
-            padding: 6px !important;
-            background: none !important;
-            color: var(--nav-text, var(--text-dark)) !important;
-            touch-action: manipulation !important;
-            -webkit-tap-highlight-color: transparent !important;
-          }
-
-          html[data-zappy-site-type="ecommerce"] .phone-header-btn,
-          body[data-zappy-site-type="ecommerce"] .phone-header-btn,
-          html[data-zappy-site-type="ecommerce"] header .phone-header-btn,
-          html[data-zappy-site-type="ecommerce"] nav .phone-header-btn {
-            display: none !important;
-            visibility: hidden !important;
-            width: 0 !important;
-            height: 0 !important;
-            min-width: 0 !important;
-            overflow: hidden !important;
-          }
-          
-          /* LTR positioning (default): hamburger LEFT, phone RIGHT */
-          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .mobile-toggle,
-          html[dir="ltr"] .mobile-toggle {
-            left: 12px !important;
-            right: auto !important;
-          }
-          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .phone-header-btn,
-          html[dir="ltr"] .phone-header-btn {
-            right: 12px !important;
-            left: auto !important;
-          }
-          
-          /* RTL positioning: hamburger RIGHT, phone LEFT */
-          html[dir="rtl"] .mobile-toggle,
-          html[lang="he"] .mobile-toggle,
-          html[lang="ar"] .mobile-toggle {
-            right: 12px !important;
-            left: auto !important;
-          }
-          html[dir="rtl"] .phone-header-btn,
-          html[lang="he"] .phone-header-btn,
-          html[lang="ar"] .phone-header-btn {
-            left: 12px !important;
-            right: auto !important;
-          }
-          
-          /* CRITICAL: Ensure nav-container has min-height on mobile */
-          /* All children are positioned absolutely/fixed on mobile, so height:auto collapses to 0 */
-          .nav-container {
-            min-height: 70px !important;
-            position: relative !important;
-          }
-          
-          /* Ensure SVG icons are properly sized and inherit color */
-          .mobile-toggle svg,
-          .phone-header-btn svg {
-            width: 24px !important;
-            height: 24px !important;
-            /* Don't force display - let JavaScript control hamburger/close toggle */
-          }
-          
-          /* Reset nav-cta-container on mobile - remove desktop box-shadow/padding */
-          /* that creates a visible ghost box when CTA button is hidden */
-          .nav-cta-container {
-            box-shadow: none !important;
-            padding: 0 !important;
-          }
-          
-          /* Hide nav-cta-container entirely on mobile when there's no lang-switcher */
-          /* (only the CTA button is inside, and it's hidden on mobile) */
-          .nav-cta-container:not(:has(.lang-switcher)) {
-            display: none !important;
-          }
-          
-          /* CRITICAL: Prevent hero image fade gradient from bleeding over headline text */
-          /* The .image-fade-gradient has bottom: -30px (extends below parent) */
-          /* On mobile stacked layout, this overlaps the h1 text below the image */
-          .hero-image-column {
-            overflow: hidden !important;
-          }
-          .image-fade-gradient {
-            bottom: 0 !important;
-          }
-          
-          /* Hide desktop language switcher on mobile - hamburger menu handles it */
-          /* High specificity to override stored CSS */
-          .lang-switcher,
-          .nav-cta-container .lang-switcher,
-          .nav-container .lang-switcher,
-          .navbar .lang-switcher,
-          .navbar .nav-cta-container .lang-switcher {
-            display: none !important;
-          }
-        }
-      `;
-      
-      // Remove existing fix if present and inject new one
-      const existing = document.getElementById('zappy-mobile-nav-fix');
-      if (existing) existing.remove();
-      document.head.appendChild(criticalCSS);
-      
-      console.log('[Navbar] Critical CSS injected for mobile nav positioning');
-      
-      // ONLY apply inline positioning styles on mobile viewport
-      // On desktop, the CSS handles hiding these buttons with display: none
-      // Inline styles were breaking desktop layout by overriding CSS
-      const isMobileViewport = window.innerWidth <= 768;
-      
-      if (mobileToggle) {
-        // Icon sizing applies to all viewports for consistency
-        const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
-        const closeIcon = mobileToggle.querySelector('.close-icon');
-        
-        if (hamburgerIcon) {
-          hamburgerIcon.style.setProperty('width', '24px', 'important');
-          hamburgerIcon.style.setProperty('height', '24px', 'important');
-          hamburgerIcon.style.setProperty('display', 'block', 'important'); // Show hamburger by default
-        }
-        if (closeIcon) {
-          closeIcon.style.setProperty('width', '24px', 'important');
-          closeIcon.style.setProperty('height', '24px', 'important');
-          closeIcon.style.setProperty('display', 'none', 'important'); // Hide close icon by default
-        }
-        
-        // ONLY set positioning inline styles on mobile
-        if (isMobileViewport) {
-          mobileToggle.style.setProperty('position', 'absolute', 'important');
-          mobileToggle.style.setProperty('top', '0', 'important');
-          mobileToggle.style.setProperty('bottom', '0', 'important');
-          mobileToggle.style.setProperty('margin-top', 'auto', 'important');
-          mobileToggle.style.setProperty('margin-bottom', 'auto', 'important');
-          mobileToggle.style.setProperty('transform', 'none', 'important');
-          mobileToggle.style.setProperty('z-index', '1001', 'important');
-          
-          // Clear any inline left/right so CSS can take over based on html[dir]
-          mobileToggle.style.removeProperty('left');
-          mobileToggle.style.removeProperty('right');
-          
-          console.log('[Navbar] Mobile toggle positioning applied (mobile viewport)');
-        } else {
-          // On desktop, clear any positioning styles to let CSS handle it
-          mobileToggle.style.removeProperty('position');
-          mobileToggle.style.removeProperty('top');
-          mobileToggle.style.removeProperty('transform');
-          mobileToggle.style.removeProperty('z-index');
-          mobileToggle.style.removeProperty('left');
-          mobileToggle.style.removeProperty('right');
-          console.log('[Navbar] Desktop viewport - cleared mobile toggle inline positioning');
-        }
-      }
-      
-      if (phoneBtn) {
-        // Icon sizing applies to all viewports
-        const phoneIcon = phoneBtn.querySelector('svg');
-        if (phoneIcon) {
-          phoneIcon.style.width = '24px';
-          phoneIcon.style.height = '24px';
-          phoneIcon.setAttribute('width', '24');
-          phoneIcon.setAttribute('height', '24');
-        }
-        
-        // ONLY set positioning inline styles on mobile
-        if (isMobileViewport) {
-          phoneBtn.style.setProperty('position', 'absolute', 'important');
-          phoneBtn.style.setProperty('top', '0', 'important');
-          phoneBtn.style.setProperty('bottom', '0', 'important');
-          phoneBtn.style.setProperty('margin-top', 'auto', 'important');
-          phoneBtn.style.setProperty('margin-bottom', 'auto', 'important');
-          phoneBtn.style.setProperty('transform', 'none', 'important');
-          phoneBtn.style.setProperty('z-index', '1001', 'important');
-          
-          // Clear any inline left/right so CSS can take over based on html[dir]
-          phoneBtn.style.removeProperty('left');
-          phoneBtn.style.removeProperty('right');
-          
-          console.log('[Navbar] Phone button positioning applied (mobile viewport)');
-        } else {
-          // On desktop, clear any positioning styles to let CSS handle it
-          phoneBtn.style.removeProperty('position');
-          phoneBtn.style.removeProperty('top');
-          phoneBtn.style.removeProperty('transform');
-          phoneBtn.style.removeProperty('z-index');
-          phoneBtn.style.removeProperty('left');
-          phoneBtn.style.removeProperty('right');
-          console.log('[Navbar] Desktop viewport - cleared phone button inline positioning');
-        }
-      }
-    } else {
-      console.log('[Navbar] Could not parse background color:', bgColor);
-    }
-    
-    // MOBILE MENU TOGGLE
-    // Re-query in case DOM changed (mobileToggle already declared at top of function)
-    mobileToggle = document.getElementById('mobileToggle') ||
-                   document.querySelector('.mobile-toggle') ||
-                   document.querySelector('.hamburger') ||
-                   document.querySelector('.hamburger-menu') ||
-                   document.querySelector('.menu-toggle') ||
-                   document.querySelector('.burger-menu') ||
-                   document.querySelector('[aria-label="Menu"]') ||
-                   document.querySelector('[aria-label="תפריט"]');
-    
-    // EXPANDED SEARCH: Find nav menu by ID or class
-    const navMenu = document.getElementById('navMenu') ||
-                  document.querySelector('.nav-menu') ||
-                  document.querySelector('.nav-links') ||
-                  document.querySelector('nav ul:not(.submenu)');
-    
-    if (!mobileToggle || !navMenu) {
-      console.log('[Navbar] Mobile toggle or menu not found:', { toggle: !!mobileToggle, menu: !!navMenu });
-      return;
-    }
-    
-    // Ensure navMenu has ID for CSS targeting
-    if (!navMenu.id) {
-      navMenu.id = 'navMenu';
-    }
-    
-    console.log('[Navbar] Initializing mobile menu...');
-    
-    // Remove any existing event listeners by cloning the button
-    const newToggle = mobileToggle.cloneNode(true);
-    mobileToggle.parentNode.replaceChild(newToggle, mobileToggle);
-    
-    // Toggle menu handler (shared by click and touchend)
-    function handleToggle(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
-      const closeIcon = newToggle.querySelector('.close-icon');
-      const isActive = navMenu.classList.contains('active');
-      
-      if (isActive) {
-        // Close menu
-        navMenu.classList.remove('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
-        document.body.style.overflow = '';
-        console.log('[Navbar] Menu closed');
-      } else {
-        // Open menu
-        navMenu.classList.add('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
-        document.body.style.overflow = 'hidden';
-        console.log('[Navbar] Menu opened');
-      }
-    }
-    
-    // Use click for desktop/emulation and touchend as iOS Safari fallback.
-    // Prevent double-fire with a timestamp guard.
-    var lastToggleTime = 0;
-    function guardedToggle(e) {
-      var now = Date.now();
-      if (now - lastToggleTime < 300) return;
-      lastToggleTime = now;
-      handleToggle(e);
-    }
-    
-    newToggle.addEventListener('click', guardedToggle);
-    newToggle.addEventListener('touchend', guardedToggle);
-    
-    // Close menu when clicking nav links (but NOT dropdown toggles)
-    const navLinks = navMenu.querySelectorAll('a');
-    navLinks.forEach(function(link) {
-      link.addEventListener('click', function() {
-        // Don't close if it's a dropdown child (unless it's a real navigation link)
-        if (this.getAttribute('href') === '#') return;
-        
-        const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
-        const closeIcon = newToggle.querySelector('.close-icon');
-        
-        navMenu.classList.remove('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
-        document.body.style.overflow = '';
-        console.log('[Navbar] Menu closed (link clicked)');
-      });
-    });
-    
-    // DROPDOWN MENU TOGGLE (for mobile and touch devices)
-    var dropdownToggles = navMenu.querySelectorAll('.dropdown-toggle');
-    dropdownToggles.forEach(function(toggle) {
-      toggle.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var parent = this.closest('.nav-dropdown');
-        if (!parent) return;
-        
-        // Close other open dropdowns at the same level
-        var siblings = parent.parentNode.querySelectorAll('.nav-dropdown.open');
-        siblings.forEach(function(sib) {
-          if (sib !== parent) sib.classList.remove('open');
-        });
-        
-        parent.classList.toggle('open');
-        console.log('[Navbar] Dropdown toggled:', parent.classList.contains('open') ? 'open' : 'closed');
-      });
-    });
-    
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.nav-dropdown')) {
-        var openDropdowns = document.querySelectorAll('.nav-dropdown.open');
-        openDropdowns.forEach(function(dd) { dd.classList.remove('open'); });
-      }
-    });
-    
-    console.log('[Navbar] Dropdown handlers initialized for ' + dropdownToggles.length + ' dropdowns');
-    
-    // Phone button functionality (phoneBtn already declared at top of function)
-    if (phoneBtn) {
-      phoneBtn.addEventListener('click', function() {
-        // Get phone number from placeholder in page or use default
-        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
-        const phoneNumber = phoneLinks.length > 0 
-          ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
-        
-        window.location.href = 'tel:' + phoneNumber;
-        console.log('[Navbar] Phone button clicked');
-      });
-    }
-    
-    console.log('[Navbar] Mobile menu initialized successfully');
-    
-    // WhatsApp button visibility is now controlled via CSS (siteSettings).
-    // No JS-based desktop hiding — the button is visible on both mobile and desktop by default.
-  });
-})();
-
-</script><main>
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+      <div class="catalog-menu-container">
+        <a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
+        <div class="catalog-menu-categories" id="zappy-category-links">
+          <!-- Categories will be loaded dynamically -->
+        </div>
+      </div>
+    </nav>
+  
+    <main>
     <section class="legal-page-content accessibility-statement">
   <div class="container">
 
@@ -932,7 +465,7 @@
     <div class="footer-top">
       <!-- Company Info -->
       <div class="footer-col footer-brand-col">
-        <img src="/assets/personalized-stationery-design-logo.webp" alt="האתר של אוריין ויהלי" class="logo">
+        <img src="/assets/personalized-stationery-design-logo.webp" alt="האתר של אוריין ויהלי" class="logo" />
         <p class="footer-tagline">סטודיו לעיצוב ניירת אישית בהתאמה מדויקת – אנחנו הופכים את הרגעים הקטנים לבלתי נשכחים.</p>
         <div class="footer-badges">
           <span class="badge"><i class="fas fa-truck"></i> משלוח חינם מעל 200 ₪</span>
@@ -1010,7 +543,15 @@
   </div>
 </footer>
     <div data-integration="accessibility:toolbar"></div>
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></a>
+
+<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden>
+  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="zappy-qv-content" id="zappy-qv-content"></div>
+</div>
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
     <script src="/script.js"></script>
 

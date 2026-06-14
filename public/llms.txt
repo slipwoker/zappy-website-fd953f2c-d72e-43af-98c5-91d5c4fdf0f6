@@ -72,7 +72,43 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 5**
+
+### סימניה 
+https://example.com/product/symnyh-qz4uic
+- Price: 0.00 ILS
+- Availability: In stock
+- Description: משמש לספר
+- Image: https://example.com/assets/product-1781382499233-wfmbpo.webp
+
+### סימניה 
+https://example.com/product/symnyh-k2g669
+- Price: 3.00 ILS (sale, was 5.00 ILS)
+- Availability: In stock
+- Description: משמש לספר
+- Image: https://example.com/assets/product-1781382373724-ak2jgb.webp
+
+### סימניה 
+https://example.com/product/symnyh-lwqr5k
+- Price: 3.00 ILS (sale, was 5.00 ILS)
+- Availability: In stock
+- Description: משמש לספר
+- Image: https://example.com/assets/product-1781382212761-bp8uod.webp
+
+### סימניה
+https://example.com/product/symnyh-ueonrw
+- Price: 3.00 ILS (sale, was 5.00 ILS)
+- Availability: In stock
+- Description: משמש לספר
+- Image: https://example.com/assets/product-1781382061156-rt2s1.webp
+
+### סימניה 
+https://example.com/product/symnyh-k2cy99
+- Price: 3.00 ILS (sale, was 5.00 ILS)
+- Availability: In stock
+- Brand: סימניות
+- Description: מיועדת לספר ולקריאה
+- Image: https://example.com/assets/product-1781379813685-hosi6.webp
 
 ---
 
